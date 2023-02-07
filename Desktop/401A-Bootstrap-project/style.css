@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mainContent {
+  background-image: url("gamer-setup.JPG");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promote {
+  color: #FFFFFF;
+  font-size: 2.5vh;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 6vh;
+}
+
+.symbol {
+  color: #00ff00;
+}
+
+.title-discription {
+  color: #FFFFFF;
+  font-size: 3.5vh;
+}
+
+.startBtn {
+  font-size: 1.5vh;
+  color: #FFFFFF;
+  background-color: #00ff00;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  padding: 7px 1rem;
+}
+
+.icon {
+  color: #AAAAAA;
+  font-size: 1.7vh;
+}
+
+.icon-discription {
+  font-size: 1.8vh;
+  color: #FFFFFF;
+}
+
+.nav-footer {
+  text-align: center;
+  background-color: #dadfea;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-footer a {
+  color: #000000;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
