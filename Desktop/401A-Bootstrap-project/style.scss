@@ -1,3 +1,68 @@
-* {
+@use 'variables' as *;
+
+body {
+    padding: 0;
     margin: 0;
+}
+
+.mainContent {
+    background-image: url('gamer-setup.JPG');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promote{
+    color: $color1;
+    font-size: 2.5vh;
+}
+
+.title {
+    color: $color1;
+    font-size: 6vh;
+}
+
+.symbol {
+    color: $brackets
+}
+
+.title-discription {
+    color: $color1;
+    font-size: 3.5vh;
+}
+
+.startBtn {
+    font-size: 1.5vh;
+    color: $color1;
+    background-color: $brackets;
+    border: 1px solid $brackets;
+    border-radius: 20px;
+    padding: 7px 1rem;
+}
+
+.icon {
+    color: $icons;
+    font-size: 1.7vh;
+}
+
+.icon-discription {
+    font-size: 1.8vh;
+    color: $color1;
+}
+
+.nav-footer {
+    text-align: center;
+    background-color: $navbgnd;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    a {
+        color: $color2;
+        text-decoration: none; 
+    }
+
 }
