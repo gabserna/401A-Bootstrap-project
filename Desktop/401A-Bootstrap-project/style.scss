@@ -13,52 +13,54 @@ body {
     background-size: cover;
 }
 
-.promote{
+.induce{
     color: $color1;
-    font-size: 2.5vh;
+    font-size: 4vh;
 }
 
 .title {
+    font-size: 10vh;
     color: $color1;
-    font-size: 6vh;
 }
 
-.symbol {
-    color: $brackets
+.curly-brackets {
+    color: $theme
 }
 
-.title-discription {
+h4 {
     color: $color1;
-    font-size: 3.5vh;
+    font-size: 4vh;
 }
 
-.startBtn {
-    font-size: 1.5vh;
+.click-me {
+    font-size: 4vh;
+    font-weight: bolder;
+    padding: 0.5em;
+    width: 20%;
     color: $color1;
-    background-color: $brackets;
-    border: 1px solid $brackets;
-    border-radius: 20px;
-    padding: 7px 1rem;
+    background-color: $theme;
+    border-radius: 25px;
 }
 
 .icon {
     color: $icons;
-    font-size: 1.7vh;
+    font-size: 3vh;
 }
 
 .icon-discription {
-    font-size: 1.8vh;
+    font-size: 3vh;
     color: $color1;
 }
 
 .nav-footer {
     text-align: center;
-    bottom: 0;
-    left: 0;
+    margin: 0 auto;
 
     a {
         color: $color2;
         text-decoration: none; 
+        font-weight: bolder;
+        text-transform: uppercase;
     }
 
 }

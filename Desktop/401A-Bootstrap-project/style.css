@@ -11,50 +11,52 @@ body {
   background-size: cover;
 }
 
-.promote {
-  color: #FFFFFF;
-  font-size: 2.5vh;
+.induce {
+  color: #e5e6e4;
+  font-size: 4vh;
 }
 
 .title {
-  color: #FFFFFF;
-  font-size: 6vh;
+  font-size: 10vh;
+  color: #e5e6e4;
 }
 
-.symbol {
+.curly-brackets {
   color: #00ff00;
 }
 
-.title-discription {
-  color: #FFFFFF;
-  font-size: 3.5vh;
+h4 {
+  color: #e5e6e4;
+  font-size: 4vh;
 }
 
-.startBtn {
-  font-size: 1.5vh;
-  color: #FFFFFF;
+.click-me {
+  font-size: 4vh;
+  font-weight: bolder;
+  padding: 0.5em;
+  width: 20%;
+  color: #e5e6e4;
   background-color: #00ff00;
-  border: 1px solid #00ff00;
-  border-radius: 20px;
-  padding: 7px 1rem;
+  border-radius: 25px;
 }
 
 .icon {
-  color: #AAAAAA;
-  font-size: 1.7vh;
+  color: #a6a2a2;
+  font-size: 3vh;
 }
 
 .icon-discription {
-  font-size: 1.8vh;
-  color: #FFFFFF;
+  font-size: 3vh;
+  color: #e5e6e4;
 }
 
 .nav-footer {
   text-align: center;
-  bottom: 0;
-  left: 0;
+  margin: 0 auto;
 }
 .nav-footer a {
-  color: #000000;
+  color: #1d3557;
   text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
