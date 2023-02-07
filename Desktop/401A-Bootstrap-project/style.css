@@ -6,7 +6,7 @@ body {
 .mainContent {
   height: 100vh;
   width: auto;
-  background-image: url("gamer-setup2.JPG");
+  background-image: url("/gamer-setup2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
