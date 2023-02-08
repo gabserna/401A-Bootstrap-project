@@ -5,21 +5,21 @@ body {
     margin: 0;
 }
 
-.mainContent {
+.main-container {
     height: 100vh;
     width: auto;
-    background-image: url('/gamer-setup2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.induce{
+.intro{
     color: $color1;
     font-size: 4vh;
 }
 
 .title {
-    font-size: 10vh;
+    font-size: 15vh;
+    font-weight: bolder;
     color: $color1;
 }
 
@@ -43,11 +43,11 @@ h4 {
 }
 
 .icon {
-    color: $icons;
+    color: $color1;
     font-size: 3vh;
 }
 
-.icon-discription {
+.course-content {
     font-size: 3vh;
     color: $color1;
 }
@@ -61,7 +61,60 @@ h4 {
         text-decoration: none; 
         font-weight: bolder;
         text-transform: uppercase;
+        cursor: pointer;
     }
 
 }
 
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.carousel-item h1 {
+    margin: 0;
+    color: blue;
+}
+
+
+
+
+//*******************************************//
+
+.carousel-inner {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.my-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    transform: translate3d(-50%,-50%,0);
+}
+.my-text h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #6182b6;
+    opacity: .7;
+}
+
+@media screen and (min-width: 980px){
+    .my-text { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .my-text h1 { font-size: 4em; }    
+}
