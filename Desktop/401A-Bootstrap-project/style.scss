@@ -1,4 +1,4 @@
-@use 'variables' as *;
+/*@use 'variables' as *;
 
 body {
     padding: 0;
@@ -76,45 +76,44 @@ h4 {
     margin: 0;
     color: blue;
 }
+*/
 
-
-
-
-//*******************************************//
-
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
 .carousel-inner {
-    height: 100vh;
-    margin: 0 auto;
+  height: 100%;
 }
-
-.my-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    transform: translate3d(-50%,-50%,0);
+.carousel {
+  margin-bottom: 60px;
 }
-.my-text h1 {
-    font-size: 6em;    
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+.carousel-caption {
+  z-index: 10;
 }
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #6182b6;
-    opacity: .7;
+.carousel .item {
+  background-color: #777;
 }
-
-@media screen and (min-width: 980px){
-    .my-text { width: 980px; }    
+.carousel .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-@media screen and (max-width: 640px){
-    .my-text h1 { font-size: 4em; }    
+.carousel .carousel-inner .bg1 {
+  background-image: url('gamer-setup.jpg');
+  background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+  background-image: url('gamer-setup2.jpg');
+  background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+  background-image: url('purple-gaming-set-up.jpg');
+  background-position: center bottom;
 }
