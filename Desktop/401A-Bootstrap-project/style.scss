@@ -1,49 +1,123 @@
 @use 'variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
 
-.intro{
-    color: $color1;
-    font-size: 4vh;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.title {
-    font-size: 15vh;
-    font-weight: bolder;
-    color: $color1;
+.container {
+    .my-tag {
+        color: $color1;
+        margin: 0 auto;
+        padding: 0;
+        width: 25vw;
+        height: 3vw;
+        border-radius: 10px;
+        font-size: 2vw;
+        font-weight: bolder;
+        font-family: 'Lato';
+    }
+    .spacer {
+        height: 10px;
+    }
+    .intro{
+        color: $color1;
+        font-size: 4vh;
+    }
+    
+    .title {
+        font-size: 8vw;
+        font-weight: bolder;
+        color: $color1;
+        .curly-brackets1 {
+            color: $theme1;
+        }
+        .curly-brackets2 {
+            color: $theme2;
+        }
+        .curly-brackets3 {
+            color: $theme3;
+        }
+    }
+    .btn1 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme1;
+    }
+    .btn2 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme2;
+    }
+    .btn3 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme3;
+    }
 }
 
-.curly-brackets {
-    color: $theme
-}
+
 
 h4 {
     color: $color1;
     font-size: 4vh;
+    font-family: 'Lato';
 }
 
-.click-me {
-    font-size: 4vh;
-    font-weight: bolder;
-    padding: 0.5em;
-    width: 20%;
-    color: $color1;
-    background-color: $theme;
-    border-radius: 25px;
+.carousel, .carousel-inner, .item, .active {
+    height: 100%;
 }
 
-.icon {
-    color: $color1;
-    font-size: 3vh;
+.carousel {
+    margin-bottom: 2em;
+}
+.carousel-caption {
+    z-index: 10;
 }
 
-.course-content {
-    font-size: 3vh;
-    color: $color1;
+.carousel {
+    .carousel-inner {
+        .bg {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+
+
+.carousel {
+    .carousel-inner {
+        .bg1 {
+            background-image: url('gamer1.jpg');
+            background-position: center top;
+        }
+    }
+}
+
+.carousel {
+    .carousel-inner {
+        .bg2 {
+            background-image: url('gamer2.jpg');
+            background-position: center center;
+        }
+    }
+}
+
+.carousel {
+    .carousel-inner {
+        .bg3 {
+            background-image: url('gamer3.jpg');
+            background-position: center bottom;
+        }
+    }
 }
 
 .nav-footer {
     text-align: center;
     margin: 0 auto;
-
     a {
         color: $color2;
         text-decoration: none; 
@@ -51,57 +125,7 @@ h4 {
         text-transform: uppercase;
         cursor: pointer;
     }
-
 }
 
-
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-.carousel, .item, .active {
-    height: 100%;
-}
-.carousel-inner {
-  height: 100%;
-}
-.carousel {
-  margin-bottom: 60px;
-}
-.carousel-caption {
-  z-index: 10;
-}
-.carousel .item {
-  background-color: #777;
-}
-.carousel .carousel-inner .bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.carousel .carousel-inner .bg1 {
-  background-image: url('gamer1.jpg');
-  background-position: center top;
-}
-.carousel .carousel-inner .bg2 {
-  background-image: url('gamer2.jpg');
-  background-position: center center;
-}
-.carousel .carousel-inner .bg3 {
-  background-image: url('gamer3.jpg');
-  background-position: center bottom;
-}
-
-
-
-
-
-
-@media screen and (min-width: 980px){
-    .my-text { width: 980px; }    
-}
-@media screen and (max-width: 640px){
-    .my-text h1 { font-size: 4em; }    
-}
+@media screen and (min-width: 980px){}
+@media screen and (max-width: 640px){}

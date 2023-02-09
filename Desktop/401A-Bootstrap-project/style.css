@@ -1,80 +1,74 @@
-.intro {
-  color: #e5e6e4;
-  font-size: 4vh;
-}
-
-.title {
-  font-size: 15vh;
-  font-weight: bolder;
-  color: #e5e6e4;
-}
-
-.curly-brackets {
-  color: #DE107C;
-}
-
-h4 {
-  color: #e5e6e4;
-  font-size: 4vh;
-}
-
-.click-me {
-  font-size: 4vh;
-  font-weight: bolder;
-  padding: 0.5em;
-  width: 20%;
-  color: #e5e6e4;
-  background-color: #DE107C;
-  border-radius: 25px;
-}
-
-.icon {
-  color: #e5e6e4;
-  font-size: 3vh;
-}
-
-.course-content {
-  font-size: 3vh;
-  color: #e5e6e4;
-}
-
-.nav-footer {
-  text-align: center;
-  margin: 0 auto;
-}
-.nav-footer a {
-  color: #1d3557;
-  text-decoration: none;
-  font-weight: bolder;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-html,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap");
+html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.carousel, .item, .active {
-  height: 100%;
+.container .my-tag {
+  color: #e5e6e4;
+  margin: 0 auto;
+  padding: 0;
+  width: 25vw;
+  height: 3vw;
+  border-radius: 10px;
+  font-size: 2vw;
+  font-weight: bolder;
+  font-family: "Lato";
+}
+.container .spacer {
+  height: 10px;
+}
+.container .intro {
+  color: #e5e6e4;
+  font-size: 4vh;
+}
+.container .title {
+  font-size: 8vw;
+  font-weight: bolder;
+  color: #e5e6e4;
+}
+.container .title .curly-brackets1 {
+  color: #f000ff;
+}
+.container .title .curly-brackets2 {
+  color: #74ee15;
+}
+.container .title .curly-brackets3 {
+  color: #dfd700;
+}
+.container .btn1 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #f000ff;
+}
+.container .btn2 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #74ee15;
+}
+.container .btn3 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #dfd700;
 }
 
-.carousel-inner {
+h4 {
+  color: #e5e6e4;
+  font-size: 4vh;
+  font-family: "Lato";
+}
+
+.carousel, .carousel-inner, .item, .active {
   height: 100%;
 }
 
 .carousel {
-  margin-bottom: 60px;
+  margin-bottom: 2em;
 }
 
 .carousel-caption {
   z-index: 10;
-}
-
-.carousel .item {
-  background-color: #777;
 }
 
 .carousel .carousel-inner .bg {
@@ -97,13 +91,14 @@ body {
   background-position: center bottom;
 }
 
-@media screen and (min-width: 980px) {
-  .my-text {
-    width: 980px;
-  }
+.nav-footer {
+  text-align: center;
+  margin: 0 auto;
 }
-@media screen and (max-width: 640px) {
-  .my-text h1 {
-    font-size: 4em;
-  }
+.nav-footer a {
+  color: #1d3557;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
