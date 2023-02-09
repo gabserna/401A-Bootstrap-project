@@ -19,6 +19,9 @@ html, body {
 .container .spacer {
   height: 1vw;
 }
+.container .spacer2 {
+  height: 3vw;
+}
 .container .intro {
   color: #e5e6e4;
   font-size: 4vh;
