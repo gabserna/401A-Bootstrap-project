@@ -17,7 +17,7 @@ html, body {
   font-family: "Lato";
 }
 .container .spacer {
-  height: 10px;
+  height: 1vw;
 }
 .container .intro {
   color: #e5e6e4;
