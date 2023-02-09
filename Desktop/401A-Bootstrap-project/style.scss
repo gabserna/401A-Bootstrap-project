@@ -1,16 +1,4 @@
-/*@use 'variables' as *;
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-.main-container {
-    height: 100vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+@use 'variables' as *;
 
 .intro{
     color: $color1;
@@ -66,17 +54,7 @@ h4 {
 
 }
 
-.carousel-item {
-    height: 100vh;
-    background-size: cover;
 
-}
-
-.carousel-item h1 {
-    margin: 0;
-    color: blue;
-}
-*/
 
 html,
 body {
@@ -84,10 +62,8 @@ body {
   margin: 0;
   padding: 0;
 }
-.carousel,
-.item,
-.active {
-  height: 100%;
+.carousel, .item, .active {
+    height: 100%;
 }
 .carousel-inner {
   height: 100%;
@@ -106,14 +82,26 @@ body {
   background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image: url('gamer-setup.jpg');
+  background-image: url('gamer1.jpg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image: url('gamer-setup2.jpg');
+  background-image: url('gamer2.jpg');
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('purple-gaming-set-up.jpg');
+  background-image: url('gamer3.jpg');
   background-position: center bottom;
+}
+
+
+
+
+
+
+@media screen and (min-width: 980px){
+    .my-text { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .my-text h1 { font-size: 4em; }    
 }

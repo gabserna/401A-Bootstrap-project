@@ -1,82 +1,55 @@
-/*@use 'variables' as *;
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-.main-container {
-    height: 100vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.intro{
-    color: $color1;
-    font-size: 4vh;
+.intro {
+  color: #e5e6e4;
+  font-size: 4vh;
 }
 
 .title {
-    font-size: 15vh;
-    font-weight: bolder;
-    color: $color1;
+  font-size: 15vh;
+  font-weight: bolder;
+  color: #e5e6e4;
 }
 
 .curly-brackets {
-    color: $theme
+  color: #DE107C;
 }
 
 h4 {
-    color: $color1;
-    font-size: 4vh;
+  color: #e5e6e4;
+  font-size: 4vh;
 }
 
 .click-me {
-    font-size: 4vh;
-    font-weight: bolder;
-    padding: 0.5em;
-    width: 20%;
-    color: $color1;
-    background-color: $theme;
-    border-radius: 25px;
+  font-size: 4vh;
+  font-weight: bolder;
+  padding: 0.5em;
+  width: 20%;
+  color: #e5e6e4;
+  background-color: #DE107C;
+  border-radius: 25px;
 }
 
 .icon {
-    color: $color1;
-    font-size: 3vh;
+  color: #e5e6e4;
+  font-size: 3vh;
 }
 
 .course-content {
-    font-size: 3vh;
-    color: $color1;
+  font-size: 3vh;
+  color: #e5e6e4;
 }
 
 .nav-footer {
-    text-align: center;
-    margin: 0 auto;
-
-    a {
-        color: $color2;
-        text-decoration: none; 
-        font-weight: bolder;
-        text-transform: uppercase;
-        cursor: pointer;
-    }
-
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-footer a {
+  color: #1d3557;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.carousel-item {
-    height: 100vh;
-    background-size: cover;
-
-}
-
-.carousel-item h1 {
-    margin: 0;
-    color: blue;
-}
-*/
 html,
 body {
   height: 100%;
@@ -84,9 +57,7 @@ body {
   padding: 0;
 }
 
-.carousel,
-.item,
-.active {
+.carousel, .item, .active {
   height: 100%;
 }
 
@@ -112,16 +83,27 @@ body {
 }
 
 .carousel .carousel-inner .bg1 {
-  background-image: url("gamer-setup.jpg");
+  background-image: url("gamer1.jpg");
   background-position: center top;
 }
 
 .carousel .carousel-inner .bg2 {
-  background-image: url("gamer-setup2.jpg");
+  background-image: url("gamer2.jpg");
   background-position: center center;
 }
 
 .carousel .carousel-inner .bg3 {
-  background-image: url("purple-gaming-set-up.jpg");
+  background-image: url("gamer3.jpg");
   background-position: center bottom;
+}
+
+@media screen and (min-width: 980px) {
+  .my-text {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .my-text h1 {
+    font-size: 4em;
+  }
 }/*# sourceMappingURL=style.css.map */
