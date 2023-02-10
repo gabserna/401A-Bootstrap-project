@@ -86,12 +86,12 @@ h4 {
 }
 
 .carousel .carousel-inner .bg2 {
-  background-image: url("/images/gamer2.JPG");
+  background-image: url(".../images/gamer2.JPG");
   background-position: center center;
 }
 
 .carousel .carousel-inner .bg3 {
-  background-image: url("/images/gamer3.JPG");
+  background-image: url(".../images/gamer3.JPG");
   background-position: center bottom;
 }
 
