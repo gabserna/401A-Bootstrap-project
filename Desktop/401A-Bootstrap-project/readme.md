@@ -12,22 +12,8 @@ In this assignment, you will create a ***single responsive page using the front-
 - Post Git Hub url link.
 - Git Hub commits beginning to end of project - well documented history.
 - No errors.
- 
-
-
 
 
 Bootstrap Documentation
 https://getbootstrap.com/docs/4.0/components/carousel/ (Links to an external site.)
 https://getbootstrap.com/docs/4.5/components/modal/
-
-
-
-
-
-***bootstrap project***
-pasar txt a divs del carousel
-corregir sass
-quitar imgs no usadas
-verificar link pages
-submit assignment

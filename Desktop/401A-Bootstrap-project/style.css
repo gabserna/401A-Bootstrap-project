@@ -57,6 +57,7 @@ html, body {
 }
 
 h4 {
+  width: 100%;
   color: #e5e6e4;
   font-size: 4vh;
   font-family: "Lato";
@@ -80,17 +81,17 @@ h4 {
 }
 
 .carousel .carousel-inner .bg1 {
-  background-image: url("gamer1.jpg");
+  background-image: url("/images/gamer1.JPG");
   background-position: center top;
 }
 
 .carousel .carousel-inner .bg2 {
-  background-image: url("gamer2.jpg");
+  background-image: url("/images/gamer2.JPG");
   background-position: center center;
 }
 
 .carousel .carousel-inner .bg3 {
-  background-image: url("gamer3.jpg");
+  background-image: url("/images/gamer3.JPG");
   background-position: center bottom;
 }
 
@@ -104,4 +105,19 @@ h4 {
   font-weight: bolder;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-footer {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .nav-footer .col a {
+    font-size: 1.2vw;
+    color: #d00000;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=style.css.map */
